@@ -1,0 +1,8 @@
+version: "3"
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5000:5000"
+  redis:
+    image: redis:6.2.5-alpine
